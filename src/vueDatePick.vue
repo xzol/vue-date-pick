@@ -12,7 +12,7 @@
                 type="text"
                 v-bind="inputAttributes"
                 :readonly="isReadOnly"
-                :value="inputValue"
+                v-model="inputValue"
                 @input="editable && processUserInput($event.target.value)"
                 @focus="editable && open()"
                 @click="editable && open()"
