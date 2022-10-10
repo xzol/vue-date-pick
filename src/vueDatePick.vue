@@ -173,7 +173,7 @@ export default {
     props: {
         mask: {
             type: String,
-            default: '["##.##.####"]'
+            default: '##.##.####'
         },
         value: {
             type: String,
