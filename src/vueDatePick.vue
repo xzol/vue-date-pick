@@ -8,7 +8,8 @@
             :processUserInput="processUserInput"
             :valueToInputFormat="valueToInputFormat"
         >
-            <input
+            <the-mask 
+                :mask="mask" 
                 v-if="hasInputElement"
                 type="text"
                 v-bind="inputAttributes"
@@ -17,7 +18,7 @@
                 @input="editable && processUserInput($event.target.value)"
                 @focus="editable && open()"
                 @click="editable && open()"
-            >
+            />
             <button
                 v-if="editable && hasInputElement && inputValue"
                 class="vdpClearInput"
@@ -171,6 +172,10 @@ const AMPMClockRE = /A/;
 export default {
 
     props: {
+        mask: {
+            type: String,
+            default: "['##.##.####']"
+        },
         value: {
             type: String,
             default: ''

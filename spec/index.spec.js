@@ -2,6 +2,10 @@ import {assert} from 'chai';
 import {mount} from '@vue/test-utils';
 import VueDatePick from '../src/vueDatePick';
 import Vue from 'vue';
+
+import VueTheMask from 'vue-the-mask'
+Vue.use(VueTheMask)
+
 import fecha from 'fecha';
 
 describe('Vue date pick', () => {
