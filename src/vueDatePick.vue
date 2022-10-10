@@ -9,7 +9,7 @@
             :valueToInputFormat="valueToInputFormat"
         >
             <the-mask
-                :mask="mask"
+                :mask="['##.##.####']"
                 v-if="hasInputElement"
                 type="text"
                 v-bind="inputAttributes"
