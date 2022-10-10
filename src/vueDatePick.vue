@@ -8,7 +8,7 @@
             :processUserInput="processUserInput"
             :valueToInputFormat="valueToInputFormat"
         >
-            <the-mask :mask="mask" v-if="hasInputElement"
+            <the-mask :mask="[##.##.####]" v-if="hasInputElement"
                 type="text"
                 v-bind="inputAttributes"
                 :readonly="isReadOnly"
@@ -171,10 +171,12 @@ const AMPMClockRE = /A/;
 export default {
 
     props: {
+        /**
         mask: {
             type: String,
             default: '##.##.####'
         },
+        **/
         value: {
             type: String,
             default: ''
