@@ -7,7 +7,7 @@
     <meta name="description" content="">
     
     
-    <link rel="preload" href="/vue-date-pick/assets/css/0.styles.336d58ff.css" as="style"><link rel="preload" href="/vue-date-pick/assets/js/app.c8a82460.js" as="script"><link rel="preload" href="/vue-date-pick/assets/js/12.6cf16e81.js" as="script"><link rel="preload" href="/vue-date-pick/assets/js/3.4cc114d8.js" as="script"><link rel="preload" href="/vue-date-pick/assets/js/1.7359bec1.js" as="script"><link rel="preload" href="/vue-date-pick/assets/js/9.597148a3.js" as="script"><link rel="preload" href="/vue-date-pick/assets/js/7.388ee87b.js" as="script"><link rel="preload" href="/vue-date-pick/assets/js/5.7c44335d.js" as="script"><link rel="preload" href="/vue-date-pick/assets/js/8.30d4423c.js" as="script"><link rel="prefetch" href="/vue-date-pick/assets/js/10.4c05a6d1.js"><link rel="prefetch" href="/vue-date-pick/assets/js/11.98a3f58e.js"><link rel="prefetch" href="/vue-date-pick/assets/js/13.34315c9f.js"><link rel="prefetch" href="/vue-date-pick/assets/js/14.852a75ec.js"><link rel="prefetch" href="/vue-date-pick/assets/js/15.3d5a865d.js"><link rel="prefetch" href="/vue-date-pick/assets/js/16.85ceb829.js"><link rel="prefetch" href="/vue-date-pick/assets/js/4.96b3ea0b.js"><link rel="prefetch" href="/vue-date-pick/assets/js/6.d2c3b63d.js">
+    <link rel="preload" href="/vue-date-pick/assets/css/0.styles.336d58ff.css" as="style"><link rel="preload" href="/vue-date-pick/assets/js/app.552febca.js" as="script"><link rel="preload" href="/vue-date-pick/assets/js/12.6cf16e81.js" as="script"><link rel="preload" href="/vue-date-pick/assets/js/3.4cc114d8.js" as="script"><link rel="preload" href="/vue-date-pick/assets/js/1.bcb4753c.js" as="script"><link rel="preload" href="/vue-date-pick/assets/js/9.597148a3.js" as="script"><link rel="preload" href="/vue-date-pick/assets/js/7.388ee87b.js" as="script"><link rel="preload" href="/vue-date-pick/assets/js/5.7c44335d.js" as="script"><link rel="preload" href="/vue-date-pick/assets/js/8.30d4423c.js" as="script"><link rel="prefetch" href="/vue-date-pick/assets/js/10.4c05a6d1.js"><link rel="prefetch" href="/vue-date-pick/assets/js/11.98a3f58e.js"><link rel="prefetch" href="/vue-date-pick/assets/js/13.34315c9f.js"><link rel="prefetch" href="/vue-date-pick/assets/js/14.852a75ec.js"><link rel="prefetch" href="/vue-date-pick/assets/js/15.3d5a865d.js"><link rel="prefetch" href="/vue-date-pick/assets/js/16.85ceb829.js"><link rel="prefetch" href="/vue-date-pick/assets/js/4.96b3ea0b.js"><link rel="prefetch" href="/vue-date-pick/assets/js/6.d2c3b63d.js">
     <link rel="stylesheet" href="/vue-date-pick/assets/css/0.styles.336d58ff.css">
   </head>
   <body>
@@ -224,7 +224,7 @@
     <span class="token punctuation">}</span><span class="token punctuation">)</span>
 <span class="token punctuation">}</span><span class="token punctuation">;</span>
 </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
-</code></pre></div></details> <h2 id="date-format"><a href="#date-format" class="header-anchor">#</a> Date format</h2> <p>Simple date picker with custom format (default is 'YYYY-MM-DD'):</p> <div class="vdpComponent datePickExample vdpWithInput"><input type="text" value="2019.01.01"> <button type="button" class="vdpClearInput"></button> <!----></div> <details><summary>
+</code></pre></div></details> <h2 id="date-format"><a href="#date-format" class="header-anchor">#</a> Date format</h2> <p>Simple date picker with custom format (default is 'YYYY-MM-DD'):</p> <div class="vdpComponent datePickExample vdpWithInput"><the-mask mask="[&quot;##.##.####&quot;]" type="text" value="2019.01.01"></the-mask> <button type="button" class="vdpClearInput"></button> <!----></div> <details><summary>
     Show code
     </summary> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>date-pick</span>
@@ -242,7 +242,7 @@
     <span class="token punctuation">}</span><span class="token punctuation">)</span>
 <span class="token punctuation">}</span><span class="token punctuation">;</span>
 </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
-</code></pre></div></details> <h2 id="display-format"><a href="#display-format" class="header-anchor">#</a> Display format</h2> <p>Use display format prop when UI date format is different from raw data format.</p> <div class="vdpComponent datePickExample vdpWithInput"><input type="text" value="01.01.2019"> <button type="button" class="vdpClearInput"></button> <!----></div> <details><summary>
+</code></pre></div></details> <h2 id="display-format"><a href="#display-format" class="header-anchor">#</a> Display format</h2> <p>Use display format prop when UI date format is different from raw data format.</p> <div class="vdpComponent datePickExample vdpWithInput"><the-mask mask="[&quot;##.##.####&quot;]" type="text" value="01.01.2019"></the-mask> <button type="button" class="vdpClearInput"></button> <!----></div> <details><summary>
     Show code
     </summary> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>date-pick</span>
@@ -261,7 +261,7 @@
 <span class="token punctuation">}</span><span class="token punctuation">;</span>
 </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
 </code></pre></div></details> <h2 id="custom-date-parser"><a href="#custom-date-parser" class="header-anchor">#</a> Custom date parser</h2> <p>Vue date pick comes with simple date parser.
-If you need to work with complex date formats feel free to inject implementation of your choice.</p> <div class="vdpComponent datePickExample vdpWithInput"><input type="text" size="32" value="Thursday September 22nd, 2022"> <button type="button" class="vdpClearInput"></button> <!----></div> <details><summary>
+If you need to work with complex date formats feel free to inject implementation of your choice.</p> <div class="vdpComponent datePickExample vdpWithInput"><the-mask mask="[&quot;##.##.####&quot;]" type="text" value="Monday October 10th, 2022" size="32"></the-mask> <button type="button" class="vdpClearInput"></button> <!----></div> <details><summary>
     Show code
     </summary> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>date-pick</span>
@@ -293,7 +293,7 @@ If you need to work with complex date formats feel free to inject implementation
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span><span class="token punctuation">;</span>
 </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
-</code></pre></div></details> <h2 id="date-time-picker"><a href="#date-time-picker" class="header-anchor">#</a> Date time picker</h2> <p>Date picker with controls for hours and minutes:</p> <div class="vdpComponent datePickExample vdpWithInput"><input type="text" value="2019-01-01 14:30"> <button type="button" class="vdpClearInput"></button> <!----></div> <details><summary>
+</code></pre></div></details> <h2 id="date-time-picker"><a href="#date-time-picker" class="header-anchor">#</a> Date time picker</h2> <p>Date picker with controls for hours and minutes:</p> <div class="vdpComponent datePickExample vdpWithInput"><the-mask mask="[&quot;##.##.####&quot;]" type="text" value="2019-01-01 14:30"></the-mask> <button type="button" class="vdpClearInput"></button> <!----></div> <details><summary>
     Show code
     </summary> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>date-pick</span>
@@ -312,7 +312,7 @@ If you need to work with complex date formats feel free to inject implementation
     <span class="token punctuation">}</span><span class="token punctuation">)</span>
 <span class="token punctuation">}</span><span class="token punctuation">;</span>
 </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
-</code></pre></div></details> <h2 id="date-time-picker-am-pm"><a href="#date-time-picker-am-pm" class="header-anchor">#</a> Date time picker (AM/PM)</h2> <p>Date time picker with hours displayed using 12 hour clock:</p> <div class="vdpComponent datePickExample vdpWithInput"><input type="text" value="2019.01.01 2:30 PM"> <button type="button" class="vdpClearInput"></button> <!----></div> <details><summary>
+</code></pre></div></details> <h2 id="date-time-picker-am-pm"><a href="#date-time-picker-am-pm" class="header-anchor">#</a> Date time picker (AM/PM)</h2> <p>Date time picker with hours displayed using 12 hour clock:</p> <div class="vdpComponent datePickExample vdpWithInput"><the-mask mask="[&quot;##.##.####&quot;]" type="text" value="2019.01.01 2:30 PM"></the-mask> <button type="button" class="vdpClearInput"></button> <!----></div> <details><summary>
     Show code
     </summary> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>date-pick</span>
@@ -333,7 +333,7 @@ If you need to work with complex date formats feel free to inject implementation
     <span class="token punctuation">}</span><span class="token punctuation">)</span>
 <span class="token punctuation">}</span><span class="token punctuation">;</span>
 </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
-</code></pre></div></details> <h2 id="custom-start-period"><a href="#custom-start-period" class="header-anchor">#</a> Custom start period</h2> <p>Open calendar UI with custom start month / year period:</p> <div class="vdpComponent datePickExample vdpWithInput"><input type="text" value="2022-09-22"> <button type="button" class="vdpClearInput"></button> <!----></div> <details><summary>
+</code></pre></div></details> <h2 id="custom-start-period"><a href="#custom-start-period" class="header-anchor">#</a> Custom start period</h2> <p>Open calendar UI with custom start month / year period:</p> <div class="vdpComponent datePickExample vdpWithInput"><the-mask mask="[&quot;##.##.####&quot;]" type="text" value="2022-10-10"></the-mask> <button type="button" class="vdpClearInput"></button> <!----></div> <details><summary>
     Show code
     </summary> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>date-pick</span>
@@ -375,7 +375,7 @@ If you need to work with complex date formats feel free to inject implementation
     <span class="token punctuation">}</span><span class="token punctuation">)</span>
 <span class="token punctuation">}</span><span class="token punctuation">;</span>
 </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
-</code></pre></div></details> <h2 id="disabling-dates"><a href="#disabling-dates" class="header-anchor">#</a> Disabling dates</h2> <p>Set &quot;isDateDisabled&quot; function as component prop to disable dates:</p> <div class="vdpComponent datePickExample vdpWithInput"><input type="text" value=""> <!----> <!----></div> <details><summary>
+</code></pre></div></details> <h2 id="disabling-dates"><a href="#disabling-dates" class="header-anchor">#</a> Disabling dates</h2> <p>Set &quot;isDateDisabled&quot; function as component prop to disable dates:</p> <div class="vdpComponent datePickExample vdpWithInput"><the-mask mask="[&quot;##.##.####&quot;]" type="text" value=""></the-mask> <!----> <!----></div> <details><summary>
     Show code
     </summary> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>date-pick</span>
@@ -399,7 +399,7 @@ If you need to work with complex date formats feel free to inject implementation
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span><span class="token punctuation">;</span>
 </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
-</code></pre></div></details> <h2 id="disabling-manual-input"><a href="#disabling-manual-input" class="header-anchor">#</a> Disabling manual input</h2> <p>Manual user input can be disabled by setting input readonly attribute via &quot;inputAttributes&quot; prop.</p> <div class="vdpComponent datePickExample vdpWithInput"><input type="text" readonly="readonly" value="2019.01.01"> <button type="button" class="vdpClearInput"></button> <!----></div> <details><summary>
+</code></pre></div></details> <h2 id="disabling-manual-input"><a href="#disabling-manual-input" class="header-anchor">#</a> Disabling manual input</h2> <p>Manual user input can be disabled by setting input readonly attribute via &quot;inputAttributes&quot; prop.</p> <div class="vdpComponent datePickExample vdpWithInput"><the-mask mask="[&quot;##.##.####&quot;]" type="text" readonly="readonly" value="2019.01.01"></the-mask> <button type="button" class="vdpClearInput"></button> <!----></div> <details><summary>
     Show code
     </summary> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>date-pick</span>
@@ -418,7 +418,7 @@ If you need to work with complex date formats feel free to inject implementation
     <span class="token punctuation">}</span><span class="token punctuation">)</span>
 <span class="token punctuation">}</span><span class="token punctuation">;</span>
 </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
-</code></pre></div></details> <h2 id="disable-editing-and-picker-ui"><a href="#disable-editing-and-picker-ui" class="header-anchor">#</a> Disable editing and picker UI</h2> <p>Disable input editing and calendar UI by setting &quot;editable&quot; prop to false.</p> <div class="vdpComponent datePickExample vdpWithInput"><input type="text" readonly="readonly" value="2019.01.01"> <!----> <!----></div> <details><summary>
+</code></pre></div></details> <h2 id="disable-editing-and-picker-ui"><a href="#disable-editing-and-picker-ui" class="header-anchor">#</a> Disable editing and picker UI</h2> <p>Disable input editing and calendar UI by setting &quot;editable&quot; prop to false.</p> <div class="vdpComponent datePickExample vdpWithInput"><the-mask mask="[&quot;##.##.####&quot;]" type="text" readonly="readonly" value="2019.01.01"></the-mask> <!----> <!----></div> <details><summary>
     Show code
     </summary> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>date-pick</span>
@@ -437,7 +437,7 @@ If you need to work with complex date formats feel free to inject implementation
     <span class="token punctuation">}</span><span class="token punctuation">)</span>
 <span class="token punctuation">}</span><span class="token punctuation">;</span>
 </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
-</code></pre></div></details> <h2 id="start-week-on-sunday"><a href="#start-week-on-sunday" class="header-anchor">#</a> Start week on Sunday</h2> <p>Sunday can be set as the first day of the week via &quot;startWeekOnSunday&quot; prop.</p> <div class="vdpComponent datePickExample vdpWithInput"><input type="text" value="2019.01.01"> <button type="button" class="vdpClearInput"></button> <!----></div> <details><summary>
+</code></pre></div></details> <h2 id="start-week-on-sunday"><a href="#start-week-on-sunday" class="header-anchor">#</a> Start week on Sunday</h2> <p>Sunday can be set as the first day of the week via &quot;startWeekOnSunday&quot; prop.</p> <div class="vdpComponent datePickExample vdpWithInput"><the-mask mask="[&quot;##.##.####&quot;]" type="text" value="2019.01.01"></the-mask> <button type="button" class="vdpClearInput"></button> <!----></div> <details><summary>
     Show code
     </summary> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>date-pick</span>
@@ -457,7 +457,7 @@ If you need to work with complex date formats feel free to inject implementation
 <span class="token punctuation">}</span><span class="token punctuation">;</span>
 </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
 </code></pre></div></details> <h2 id="change-selectable-years"><a href="#change-selectable-years" class="header-anchor">#</a> Change selectable years</h2> <p>Dropdown for selecteble years can be customized via selectableYearRange prop
-(default value is 40 years from and after current year).</p> <div class="vdpComponent datePickExample vdpWithInput"><input type="text" value="2019.01.01"> <button type="button" class="vdpClearInput"></button> <!----></div> <details><summary>
+(default value is 40 years from and after current year).</p> <div class="vdpComponent datePickExample vdpWithInput"><the-mask mask="[&quot;##.##.####&quot;]" type="text" value="2019.01.01"></the-mask> <button type="button" class="vdpClearInput"></button> <!----></div> <details><summary>
     Show code
     </summary> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>date-pick</span>
@@ -485,6 +485,6 @@ If you need to work with complex date formats feel free to inject implementation
         </a>
         →
       </span></p></div> </div> <!----></div></div>
-    <script src="/vue-date-pick/assets/js/app.c8a82460.js" defer></script><script src="/vue-date-pick/assets/js/12.6cf16e81.js" defer></script><script src="/vue-date-pick/assets/js/3.4cc114d8.js" defer></script><script src="/vue-date-pick/assets/js/1.7359bec1.js" defer></script><script src="/vue-date-pick/assets/js/9.597148a3.js" defer></script><script src="/vue-date-pick/assets/js/7.388ee87b.js" defer></script><script src="/vue-date-pick/assets/js/5.7c44335d.js" defer></script><script src="/vue-date-pick/assets/js/8.30d4423c.js" defer></script>
+    <script src="/vue-date-pick/assets/js/app.552febca.js" defer></script><script src="/vue-date-pick/assets/js/12.6cf16e81.js" defer></script><script src="/vue-date-pick/assets/js/3.4cc114d8.js" defer></script><script src="/vue-date-pick/assets/js/1.bcb4753c.js" defer></script><script src="/vue-date-pick/assets/js/9.597148a3.js" defer></script><script src="/vue-date-pick/assets/js/7.388ee87b.js" defer></script><script src="/vue-date-pick/assets/js/5.7c44335d.js" defer></script><script src="/vue-date-pick/assets/js/8.30d4423c.js" defer></script>
   </body>
 </html>

@@ -8,9 +8,7 @@
             :processUserInput="processUserInput"
             :valueToInputFormat="valueToInputFormat"
         >
-            <the-mask 
-                :mask="mask" 
-                v-if="hasInputElement"
+            <the-mask :mask="mask" v-if="hasInputElement"
                 type="text"
                 v-bind="inputAttributes"
                 :readonly="isReadOnly"
@@ -174,7 +172,7 @@ export default {
     props: {
         mask: {
             type: String,
-            default: "['##.##.####']"
+            default: '["##.##.####"]'
         },
         value: {
             type: String,
