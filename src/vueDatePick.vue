@@ -8,7 +8,7 @@
             :processUserInput="processUserInput"
             :valueToInputFormat="valueToInputFormat"
         >
-            <VueTheMask :mask="mask" v-if="hasInputElement"
+            <the-mask :mask="mask" v-if="hasInputElement"
                 type="text"
                 v-bind="inputAttributes"
                 :readonly="isReadOnly"
@@ -157,7 +157,7 @@
 </template>
 
 <script>
-import VueTheMask from 'vue-the-mask';
+import {TheMask} from 'vue-the-mask';
 
 const formatRE = /,|\.|-| |:|\/|\\/;
 const dayRE = /D+/;
@@ -277,7 +277,7 @@ export default {
             )
         };
     },
-    components: {VueTheMask},
+    components: {TheMask},
     computed: {
 
         valueDate() {
