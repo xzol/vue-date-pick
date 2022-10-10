@@ -1,11 +1,11 @@
 {
-  "name": "vue-date-pick",
-  "version": "1.5.1",
+  "name": "vue-date-pick-whith-mask",
+  "version": "1.6.0",
   "description": "Date time picker based on Vue",
-  "homepage": "https://dbrekalo.github.io/vue-date-pick/",
+  "homepage": "https://github.com/xzol/vue-date-pick",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dbrekalo/vue-date-pick"
+    "url": "git+https://github.com/xzol/vue-date-pick.git"
   },
   "main": "dist/vueDatePick.js",
   "license": "MIT",
@@ -20,7 +20,8 @@
     "time",
     "picker",
     "pick",
-    "vue"
+    "vue",
+    "mask"
   ],
   "scripts": {
     "dev": "npm run dev:docs",
@@ -81,5 +82,12 @@
     "Chrome >= 30",
     "Firefox >= 30",
     "Explorer >= 9"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/xzol/vue-date-pick/issues"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "author": "m7k"
 }
